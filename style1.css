@@ -1,0 +1,135 @@
+.tran{
+     width: 100px;
+     height: 100px;
+     background: blue;
+      transition: width 2s, height 4s;
+}
+
+.tran:hover {<br>
+    width: 300px;<br>
+    height: 300px;<br>
+}
+
+.tran2{
+  width: 100px;
+  height: 100px;
+  background: yellow;
+  transition: width 3s;
+  transition-delay: 1s;
+}
+
+.tran2:hover {
+  width: 300px;
+}
+
+.tran3 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition-property: width;
+  transition-duration: 5s;
+}
+
+.tran3:hover {
+  width: 300px;
+}
+
+.trans4 {
+  width: 100px;
+  height: 100px;
+  background: ORANGE;
+  transition-property: width;
+  transition-duration: 2s;
+}
+
+.trans4:hover {
+  width: 300px;
+}
+
+.tran5 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: width 2s;
+  transition-timing-function: linear;
+}
+
+.tran5:hover {
+  width: 300px;
+}
+
+.tran6{
+  width: 100px;
+  height: 50px;
+  background: red;
+  color: white;
+  font-weight: bold;
+  transition: width 5s;
+}
+
+#div1 {transition-timing-function: cubic-bezier(0,0,1,1);}
+
+.tran6:hover {
+  width: 300px;
+}
+
+.tran7 {
+  width: 100px;
+  height: 50px;
+  background: pink;
+  color: black;
+  font-weight: bold;
+  transition: width 5s;
+}
+
+#div1 {transition-timing-function: cubic-bezier(0,0,1,1);}
+
+.tran7:hover {
+  width: 300px;
+}
+
+
+.tran8 {
+  width: 100px;
+  height: 50px;
+  background: pink;
+  color: black;
+  font-weight: bold;
+  transition: width 5s;
+}
+
+#div1 {transition-timing-function: cubic-bezier(0,0,1,1);}
+
+.tran8:hover {
+  width: 300px;
+}
+
+.tran9 {
+  width: 100px;
+  height: 50px;
+  background: GREEN;
+  color: WHITE;
+  font-weight: bold;
+  transition: width 5s;
+}
+
+#div1 {transition-timing-function: cubic-bezier(0,0,1,1);}
+
+.tran9:hover {
+  width: 300px;
+}
+
+.tran10 {
+  width: 100px;
+  height: 50px;
+  background: yellow;
+  color: black;
+  font-weight: bold;
+  transition: width 5s;
+}
+
+#div1 {transition-timing-function: cubic-bezier(0,0,1,1);}
+
+.tran10:hover {
+  width: 300px;
+}
